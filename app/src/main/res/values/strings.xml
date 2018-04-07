@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="final_score">You final Scrore is %d</string>
+
+    <string name="intro"> Game Rules \n \n
+    1. All Questions has single answer \n
+    2. Any question can be attempted only once \n \n
+        Enjoy the game.
+    </string>
+    <string name="start">Start</string>
+
+
+</resources>

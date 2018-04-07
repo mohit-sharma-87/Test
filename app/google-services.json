@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "190797832848",
+    "firebase_url": "https://code-challenge-cf1a4.firebaseio.com",
+    "project_id": "code-challenge-cf1a4",
+    "storage_bucket": "code-challenge-cf1a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190797832848:android:9b0c09c6c438d647",
+        "android_client_info": {
+          "package_name": "com.codelife.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "190797832848-karp9sbqp8io1hqt0e9khmrh9vutrnl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codelife.test",
+            "certificate_hash": "3726e5315cf28bff0ad8b0e5709ada02138d2570"
+          }
+        },
+        {
+          "client_id": "190797832848-fha77hp5u61a4fg4lplnpmnanfle25fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEewtDVCnE08R4nNcsnb2cuqrhD0ZRKEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "190797832848-fha77hp5u61a4fg4lplnpmnanfle25fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
