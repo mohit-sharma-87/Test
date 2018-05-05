@@ -10,6 +10,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.codelife.test.BaseFactory
+import com.codelife.test.R
 import com.codelife.test.adapter.QuestionListAdapter
 import com.codelife.test.common.ItemClickSupport
 import com.codelife.test.databinding.LayoutQuestionListBinding
@@ -110,7 +111,7 @@ class QuestionListFragment : BaseFragment(), QuestionListContract.View {
 
         val message = getString(R.string.final_score,rightAnswer)
         val snackbar = Snackbar.make(activity!!.findViewById(android.R.id.content),message , Snackbar.LENGTH_INDEFINITE)
-        snackbar.setAction("Retry", {
+        snackbar.setAction(getString(R.string.retry_string), {
             view -> snackbar.dismiss()
             presenter.getQuestionList()
         }).show()
